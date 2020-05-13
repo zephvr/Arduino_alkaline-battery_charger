@@ -15,6 +15,7 @@ Only charge battery that meet this requirements:
 
 ![diagram](diagram.png "Tinkercad diagram of the project")
 
+
 ## Materials
 
 This project require only components that are available on the Arduino Starter Kit.
@@ -29,7 +30,12 @@ This project require only components that are available on the Arduino Starter K
 
 ## How to use it
 
-Reproduce the circuit, paste the programm in the arduino IDE, download the [Timer1][1] library, change the value of the constant if needed and you are good to go.
+Steps:
+ - Reproduce the circuit on your breadboard (put the TMP36 in contact with the battery. If not possible you have to check manually the battery temperature)
+ - Paste the programm in the arduino IDE
+ - Download the [Timer1][1] library
+ - Change the value of the constants if needed
+You are good to go.
 
 Make sure to keep the battery well connected during the recharge process if you do not have a good mounting for the battery as it can leed to errors.
 
