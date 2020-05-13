@@ -3,12 +3,12 @@
 #define STOPPED 0
 #define RUNNING 1
 
-const unsigned int duty_cycle = 983; // sur 255
-const int powerPin = 10;
-const int stopLedPin = 8;
+const unsigned int duty_cycle = 983; // over 1023
+const int powerPin = 9;
+const int stopLedPin = 3;
 const int switchPin = 2;
-const int voltPin = A1;
-const int tempPin = A0;
+const int voltPin = A0;
+const int tempPin = A1;
 const unsigned long periode = 125000;
 
 float voltMaxThreshold = 1.70;
